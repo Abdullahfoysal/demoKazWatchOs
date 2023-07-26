@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5CE4DF2C-16B0-4571-8FBD-AAB8E815F4CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3674381F-3256-4028-A617-D14E247FDC73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "requestAuthorizationPermission()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1720975-5F87-47C6-8343-395EF59FB2B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "requestAuthorizationPermission()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "807F3714-7782-43DE-A146-0014BC9EF79A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "requestAuthorizationPermission()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "807F3714-7782-43DE-A146-0014BC9EF79A - 9f51427c7d75b1be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.requestAuthorizationPermission() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "807F3714-7782-43DE-A146-0014BC9EF79A - 9f51427c7d75b1be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.requestAuthorizationPermission() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "668">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4A62AC2-D08E-4B21-8B22-39B362863CE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "requestAuthorizationPermission()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B0A8819-E97D-47A8-8A43-352B9272BF71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "requestAuthorizationPermission()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B71F571A-8FCE-4B01-8BDA-9DAE88D979B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "readHeartRateData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEBD2C7E-047A-4A2E-8D25-309B5DAA5559"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "readBloodGlucoseData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEBD2C7E-047A-4A2E-8D25-309B5DAA5559 - 2f8307ad91631990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.HKSampleQuery, Swift.Optional&lt;Swift.Array&lt;__C.HKSample&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.readHeartRateData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "EEBD2C7E-047A-4A2E-8D25-309B5DAA5559 - 752411de4d2c16d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kazWatchOs_Watch_App.HealthManager.readBloodGlucoseData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "556BF349-C81A-4380-93FF-084AC3894313"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "readBloodGlucoseData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18FBEFBE-49BC-4675-9BBA-47BA0D1FD2FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "readBloodGlucoseData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18FBEFBE-49BC-4675-9BBA-47BA0D1FD2FC - 8025a620d05934d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kazWatchOs_Watch_App.HealthManager.readHeartRateData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "18FBEFBE-49BC-4675-9BBA-47BA0D1FD2FC - c619fcc35e885e34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.HKSampleQuery, Swift.Optional&lt;Swift.Array&lt;__C.HKSample&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.readBloodGlucoseData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06E50D70-C827-4D46-AA34-8EC01E3B59E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "readBloodGlucoseData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "06E50D70-C827-4D46-AA34-8EC01E3B59E6 - 752411de4d2c1792"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kazWatchOs_Watch_App.HealthManager.readBloodGlucoseData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "06E50D70-C827-4D46-AA34-8EC01E3B59E6 - c619fcc35e885fb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.HKSampleQuery, Swift.Optional&lt;Swift.Array&lt;__C.HKSample&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.readBloodGlucoseData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00FD79D5-6FC0-4D70-8133-ADA4170CB1A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HealthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "readOxygenSaturationData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00FD79D5-6FC0-4D70-8133-ADA4170CB1A9 - 7828abfe5ddb77a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kazWatchOs_Watch_App.HealthManager.saveBloodGlucoseData(glucoseValue: Swift.Double, startDate: Foundation.Date, endDate: Foundation.Date) -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "00FD79D5-6FC0-4D70-8133-ADA4170CB1A9 - 7a46a5c5dd9cd664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.HKSampleQuery, Swift.Optional&lt;Swift.Array&lt;__C.HKSample&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in kazWatchOs_Watch_App.HealthManager.readOxygenSaturationData() -&gt; ()"
+                  moduleName = "kazWatchOs Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/kazWatchOs/HealthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

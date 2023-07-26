@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */; };
+		BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */; };
+		BAA9F2D02A710E7F005B13D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2CF2A710E7F005B13D5 /* Assets.xcassets */; };
+		BAA9F2D32A710E7F005B13D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2D22A710E7F005B13D5 /* Preview Assets.xcassets */; };
+		BAA9F2DD2A710E7F005B13D5 /* kazWatchOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2DC2A710E7F005B13D5 /* kazWatchOsTests.swift */; };
+		BAA9F2E72A710E7F005B13D5 /* kazWatchOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2E62A710E7F005B13D5 /* kazWatchOsUITests.swift */; };
+		BAA9F2E92A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2E82A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift */; };
+		BAA9F2EF2A710E7F005B13D5 /* kazWatchOs Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BAA9F2EE2A710E7F005B13D5 /* kazWatchOs Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */; };
+		BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2F52A710E7F005B13D5 /* ContentView.swift */; };
+		BAA9F2F82A710E80005B13D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2F72A710E80005B13D5 /* Assets.xcassets */; };
+		BAA9F2FB2A710E80005B13D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2FA2A710E80005B13D5 /* Preview Assets.xcassets */; };
+		BAA9F3052A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3042A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift */; };
+		BAA9F30F2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F30E2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift */; };
+		BAA9F3112A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3102A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift */; };
+		BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
+		BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA9F2D92A710E7F005B13D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA9F2C02A710E7D005B13D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA9F2C72A710E7D005B13D5;
+			remoteInfo = kazWatchOs;
+		};
+		BAA9F2E32A710E7F005B13D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA9F2C02A710E7D005B13D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA9F2C72A710E7D005B13D5;
+			remoteInfo = kazWatchOs;
+		};
+		BAA9F2F02A710E7F005B13D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA9F2C02A710E7D005B13D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA9F2ED2A710E7F005B13D5;
+			remoteInfo = "kazWatchOs Watch App";
+		};
+		BAA9F3012A710E80005B13D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA9F2C02A710E7D005B13D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA9F2ED2A710E7F005B13D5;
+			remoteInfo = "kazWatchOs Watch App";
+		};
+		BAA9F30B2A710E80005B13D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA9F2C02A710E7D005B13D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA9F2ED2A710E7F005B13D5;
+			remoteInfo = "kazWatchOs Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAA9F3172A710E80005B13D5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BAA9F2EF2A710E7F005B13D5 /* kazWatchOs Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BAA9F2C82A710E7D005B13D5 /* kazWatchOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazWatchOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsApp.swift; sourceTree = "<group>"; };
+		BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAA9F2CF2A710E7F005B13D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA9F2D22A710E7F005B13D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAA9F2D82A710E7F005B13D5 /* kazWatchOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazWatchOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F2DC2A710E7F005B13D5 /* kazWatchOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsTests.swift; sourceTree = "<group>"; };
+		BAA9F2E22A710E7F005B13D5 /* kazWatchOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazWatchOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F2E62A710E7F005B13D5 /* kazWatchOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsUITests.swift; sourceTree = "<group>"; };
+		BAA9F2E82A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAA9F2EE2A710E7F005B13D5 /* kazWatchOs Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kazWatchOs Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsApp.swift; sourceTree = "<group>"; };
+		BAA9F2F52A710E7F005B13D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAA9F2F72A710E80005B13D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA9F2FA2A710E80005B13D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAA9F3002A710E80005B13D5 /* kazWatchOs Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kazWatchOs Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F3042A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOs_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BAA9F30A2A710E80005B13D5 /* kazWatchOs Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kazWatchOs Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9F30E2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOs_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BAA9F3102A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOs_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAA9F3272A710FA6005B13D5 /* kazWatchOs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kazWatchOs.entitlements; sourceTree = "<group>"; };
+		BAA9F3282A710FD6005B13D5 /* kazWatchOs Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "kazWatchOs Watch App.entitlements"; sourceTree = "<group>"; };
+		BAA9F3292A71127C005B13D5 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA9F2C52A710E7D005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2D52A710E7F005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2DF2A710E7F005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2EB2A710E7F005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2FD2A710E80005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F3072A710E80005B13D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA9F2BF2A710E7D005B13D5 = {
+			isa = PBXGroup;
+			children = (
+				BAA9F3292A71127C005B13D5 /* HealthManager.swift */,
+				BAA9F2CA2A710E7D005B13D5 /* kazWatchOs */,
+				BAA9F2DB2A710E7F005B13D5 /* kazWatchOsTests */,
+				BAA9F2E52A710E7F005B13D5 /* kazWatchOsUITests */,
+				BAA9F2F22A710E7F005B13D5 /* kazWatchOs Watch App */,
+				BAA9F3032A710E80005B13D5 /* kazWatchOs Watch AppTests */,
+				BAA9F30D2A710E80005B13D5 /* kazWatchOs Watch AppUITests */,
+				BAA9F2C92A710E7D005B13D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA9F2C92A710E7D005B13D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F2C82A710E7D005B13D5 /* kazWatchOs.app */,
+				BAA9F2D82A710E7F005B13D5 /* kazWatchOsTests.xctest */,
+				BAA9F2E22A710E7F005B13D5 /* kazWatchOsUITests.xctest */,
+				BAA9F2EE2A710E7F005B13D5 /* kazWatchOs Watch App.app */,
+				BAA9F3002A710E80005B13D5 /* kazWatchOs Watch AppTests.xctest */,
+				BAA9F30A2A710E80005B13D5 /* kazWatchOs Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA9F2CA2A710E7D005B13D5 /* kazWatchOs */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F3272A710FA6005B13D5 /* kazWatchOs.entitlements */,
+				BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */,
+				BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */,
+				BAA9F2CF2A710E7F005B13D5 /* Assets.xcassets */,
+				BAA9F2D12A710E7F005B13D5 /* Preview Content */,
+			);
+			path = kazWatchOs;
+			sourceTree = "<group>";
+		};
+		BAA9F2D12A710E7F005B13D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F2D22A710E7F005B13D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAA9F2DB2A710E7F005B13D5 /* kazWatchOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F2DC2A710E7F005B13D5 /* kazWatchOsTests.swift */,
+			);
+			path = kazWatchOsTests;
+			sourceTree = "<group>";
+		};
+		BAA9F2E52A710E7F005B13D5 /* kazWatchOsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F2E62A710E7F005B13D5 /* kazWatchOsUITests.swift */,
+				BAA9F2E82A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift */,
+			);
+			path = kazWatchOsUITests;
+			sourceTree = "<group>";
+		};
+		BAA9F2F22A710E7F005B13D5 /* kazWatchOs Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F3282A710FD6005B13D5 /* kazWatchOs Watch App.entitlements */,
+				BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */,
+				BAA9F2F52A710E7F005B13D5 /* ContentView.swift */,
+				BAA9F2F72A710E80005B13D5 /* Assets.xcassets */,
+				BAA9F2F92A710E80005B13D5 /* Preview Content */,
+			);
+			path = "kazWatchOs Watch App";
+			sourceTree = "<group>";
+		};
+		BAA9F2F92A710E80005B13D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F2FA2A710E80005B13D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAA9F3032A710E80005B13D5 /* kazWatchOs Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F3042A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift */,
+			);
+			path = "kazWatchOs Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BAA9F30D2A710E80005B13D5 /* kazWatchOs Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9F30E2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift */,
+				BAA9F3102A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "kazWatchOs Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA9F2C72A710E7D005B13D5 /* kazWatchOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F3182A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs" */;
+			buildPhases = (
+				BAA9F2C42A710E7D005B13D5 /* Sources */,
+				BAA9F2C52A710E7D005B13D5 /* Frameworks */,
+				BAA9F2C62A710E7D005B13D5 /* Resources */,
+				BAA9F3172A710E80005B13D5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA9F2F12A710E7F005B13D5 /* PBXTargetDependency */,
+			);
+			name = kazWatchOs;
+			productName = kazWatchOs;
+			productReference = BAA9F2C82A710E7D005B13D5 /* kazWatchOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA9F2D72A710E7F005B13D5 /* kazWatchOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F31B2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsTests" */;
+			buildPhases = (
+				BAA9F2D42A710E7F005B13D5 /* Sources */,
+				BAA9F2D52A710E7F005B13D5 /* Frameworks */,
+				BAA9F2D62A710E7F005B13D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA9F2DA2A710E7F005B13D5 /* PBXTargetDependency */,
+			);
+			name = kazWatchOsTests;
+			productName = kazWatchOsTests;
+			productReference = BAA9F2D82A710E7F005B13D5 /* kazWatchOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA9F2E12A710E7F005B13D5 /* kazWatchOsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F31E2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsUITests" */;
+			buildPhases = (
+				BAA9F2DE2A710E7F005B13D5 /* Sources */,
+				BAA9F2DF2A710E7F005B13D5 /* Frameworks */,
+				BAA9F2E02A710E7F005B13D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA9F2E42A710E7F005B13D5 /* PBXTargetDependency */,
+			);
+			name = kazWatchOsUITests;
+			productName = kazWatchOsUITests;
+			productReference = BAA9F2E22A710E7F005B13D5 /* kazWatchOsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BAA9F2ED2A710E7F005B13D5 /* kazWatchOs Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F3142A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch App" */;
+			buildPhases = (
+				BAA9F2EA2A710E7F005B13D5 /* Sources */,
+				BAA9F2EB2A710E7F005B13D5 /* Frameworks */,
+				BAA9F2EC2A710E7F005B13D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kazWatchOs Watch App";
+			productName = "kazWatchOs Watch App";
+			productReference = BAA9F2EE2A710E7F005B13D5 /* kazWatchOs Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA9F2FF2A710E80005B13D5 /* kazWatchOs Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F3212A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppTests" */;
+			buildPhases = (
+				BAA9F2FC2A710E80005B13D5 /* Sources */,
+				BAA9F2FD2A710E80005B13D5 /* Frameworks */,
+				BAA9F2FE2A710E80005B13D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA9F3022A710E80005B13D5 /* PBXTargetDependency */,
+			);
+			name = "kazWatchOs Watch AppTests";
+			productName = "kazWatchOs Watch AppTests";
+			productReference = BAA9F3002A710E80005B13D5 /* kazWatchOs Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA9F3092A710E80005B13D5 /* kazWatchOs Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9F3242A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppUITests" */;
+			buildPhases = (
+				BAA9F3062A710E80005B13D5 /* Sources */,
+				BAA9F3072A710E80005B13D5 /* Frameworks */,
+				BAA9F3082A710E80005B13D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA9F30C2A710E80005B13D5 /* PBXTargetDependency */,
+			);
+			name = "kazWatchOs Watch AppUITests";
+			productName = "kazWatchOs Watch AppUITests";
+			productReference = BAA9F30A2A710E80005B13D5 /* kazWatchOs Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA9F2C02A710E7D005B13D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BAA9F2C72A710E7D005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BAA9F2D72A710E7F005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BAA9F2C72A710E7D005B13D5;
+					};
+					BAA9F2E12A710E7F005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BAA9F2C72A710E7D005B13D5;
+					};
+					BAA9F2ED2A710E7F005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BAA9F2FF2A710E80005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BAA9F2ED2A710E7F005B13D5;
+					};
+					BAA9F3092A710E80005B13D5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BAA9F2ED2A710E7F005B13D5;
+					};
+				};
+			};
+			buildConfigurationList = BAA9F2C32A710E7D005B13D5 /* Build configuration list for PBXProject "kazWatchOs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA9F2BF2A710E7D005B13D5;
+			productRefGroup = BAA9F2C92A710E7D005B13D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA9F2C72A710E7D005B13D5 /* kazWatchOs */,
+				BAA9F2D72A710E7F005B13D5 /* kazWatchOsTests */,
+				BAA9F2E12A710E7F005B13D5 /* kazWatchOsUITests */,
+				BAA9F2ED2A710E7F005B13D5 /* kazWatchOs Watch App */,
+				BAA9F2FF2A710E80005B13D5 /* kazWatchOs Watch AppTests */,
+				BAA9F3092A710E80005B13D5 /* kazWatchOs Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA9F2C62A710E7D005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2D32A710E7F005B13D5 /* Preview Assets.xcassets in Resources */,
+				BAA9F2D02A710E7F005B13D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2D62A710E7F005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2E02A710E7F005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2EC2A710E7F005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2FB2A710E80005B13D5 /* Preview Assets.xcassets in Resources */,
+				BAA9F2F82A710E80005B13D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2FE2A710E80005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F3082A710E80005B13D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA9F2C42A710E7D005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */,
+				BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */,
+				BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2D42A710E7F005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2DD2A710E7F005B13D5 /* kazWatchOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2DE2A710E7F005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2E72A710E7F005B13D5 /* kazWatchOsUITests.swift in Sources */,
+				BAA9F2E92A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2EA2A710E7F005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */,
+				BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */,
+				BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F2FC2A710E80005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F3052A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9F3062A710E80005B13D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9F30F2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift in Sources */,
+				BAA9F3112A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA9F2DA2A710E7F005B13D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA9F2C72A710E7D005B13D5 /* kazWatchOs */;
+			targetProxy = BAA9F2D92A710E7F005B13D5 /* PBXContainerItemProxy */;
+		};
+		BAA9F2E42A710E7F005B13D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA9F2C72A710E7D005B13D5 /* kazWatchOs */;
+			targetProxy = BAA9F2E32A710E7F005B13D5 /* PBXContainerItemProxy */;
+		};
+		BAA9F2F12A710E7F005B13D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA9F2ED2A710E7F005B13D5 /* kazWatchOs Watch App */;
+			targetProxy = BAA9F2F02A710E7F005B13D5 /* PBXContainerItemProxy */;
+		};
+		BAA9F3022A710E80005B13D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA9F2ED2A710E7F005B13D5 /* kazWatchOs Watch App */;
+			targetProxy = BAA9F3012A710E80005B13D5 /* PBXContainerItemProxy */;
+		};
+		BAA9F30C2A710E80005B13D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA9F2ED2A710E7F005B13D5 /* kazWatchOs Watch App */;
+			targetProxy = BAA9F30B2A710E80005B13D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAA9F3122A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA9F3132A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BAA9F3152A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "kazWatchOs Watch App/kazWatchOs Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kazWatchOs;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data need to share with Doctors";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need your access to write demo Data to health Store";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.foysal.kazWatchOs;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOs.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BAA9F3162A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "kazWatchOs Watch App/kazWatchOs Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kazWatchOs;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data need to share with Doctors";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need your access to write demo Data to health Store";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.foysal.kazWatchOs;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOs.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		BAA9F3192A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kazWatchOs/kazWatchOs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazWatchOs/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kazWatchOs;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data need to share with Doctors";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA9F31A2A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kazWatchOs/kazWatchOs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazWatchOs/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kazWatchOs;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data need to share with Doctors";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA9F31C2A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazWatchOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazWatchOs";
+			};
+			name = Debug;
+		};
+		BAA9F31D2A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazWatchOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazWatchOs";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA9F31F2A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kazWatchOs;
+			};
+			name = Debug;
+		};
+		BAA9F3202A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foysal.kazWatchOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kazWatchOs;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA9F3222A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.kazWatchOs-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazWatchOs Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazWatchOs Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BAA9F3232A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.kazWatchOs-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazWatchOs Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazWatchOs Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		BAA9F3252A710E80005B13D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.kazWatchOs-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "kazWatchOs Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BAA9F3262A710E80005B13D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FT7VLBPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.kazWatchOs-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "kazWatchOs Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA9F2C32A710E7D005B13D5 /* Build configuration list for PBXProject "kazWatchOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F3122A710E80005B13D5 /* Debug */,
+				BAA9F3132A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F3142A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F3152A710E80005B13D5 /* Debug */,
+				BAA9F3162A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F3182A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F3192A710E80005B13D5 /* Debug */,
+				BAA9F31A2A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F31B2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F31C2A710E80005B13D5 /* Debug */,
+				BAA9F31D2A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F31E2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F31F2A710E80005B13D5 /* Debug */,
+				BAA9F3202A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F3212A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F3222A710E80005B13D5 /* Debug */,
+				BAA9F3232A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA9F3242A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9F3252A710E80005B13D5 /* Debug */,
+				BAA9F3262A710E80005B13D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA9F2C02A710E7D005B13D5 /* Project object */;
+}
