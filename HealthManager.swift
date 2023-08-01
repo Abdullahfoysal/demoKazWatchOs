@@ -9,6 +9,9 @@ import Foundation
 import HealthKit
 
 class HealthManager {
+    
+   
+    
     let healthStore = HKHealthStore()
     let allTypes = Set([HKObjectType.workoutType(),
                        HKObjectType.quantityType(forIdentifier: .heartRate)!,

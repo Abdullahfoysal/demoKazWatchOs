@@ -9,17 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     let healthstoreManager = HealthManager()
+    
+  @ObservedObject private var healthData = HealthDataModel()
+    var mySubService = SubscriptionService()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-        .onAppear {
-            healthstoreManager.requestAuthorizationPermission()
-        }
+        NavigationStack {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world! \(healthData.heartBeat)")
+                TextField("", text: $healthData.heartBeat)
+                NavigationLink("Navigate to health Data view", destination: HealthView())
+             
+            }
+            .padding()
+            .onAppear {
+                
+                healthstoreManager.requestAuthorizationPermission()
+            }
+            
+        }.environmentObject(healthData)
     }
 }
 
