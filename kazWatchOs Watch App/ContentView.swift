@@ -11,7 +11,7 @@ struct ContentView: View {
     let healthstoreManager = HealthManager()
     
   @ObservedObject private var healthData = HealthDataModel()
-    var mySubService = SubscriptionService()
+    var mySubVM = SubscriptionViewModel()
     
     var body: some View {
         NavigationStack {
@@ -26,7 +26,22 @@ struct ContentView: View {
             }
             .padding()
             .onAppear {
-                
+                mySubVM.startTimerOfSubscription()
+                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
+                    
+                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
+                        print(event)
+                        
+                    }
+                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
+                        print(event)
+                        
+                    }
+                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
+                        print(event)
+                        
+                    }
+                }
                 healthstoreManager.requestAuthorizationPermission()
             }
             

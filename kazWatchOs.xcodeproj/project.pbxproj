@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180A0D9A2A79086F009100D6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D972A79086F009100D6 /* RxCocoa.framework */; };
-		180A0D9B2A79086F009100D6 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D972A79086F009100D6 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		180A0D9C2A79086F009100D6 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D982A79086F009100D6 /* RxRelay.framework */; };
-		180A0D9D2A79086F009100D6 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D982A79086F009100D6 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		180A0D9E2A79086F009100D6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D992A79086F009100D6 /* RxSwift.framework */; };
-		180A0D9F2A79086F009100D6 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 180A0D992A79086F009100D6 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1826C6622A74198600997D49 /* HealthDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6612A74198600997D49 /* HealthDataModel.swift */; };
 		1826C6632A74198600997D49 /* HealthDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6612A74198600997D49 /* HealthDataModel.swift */; };
 		1826C6652A7419E700997D49 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6642A7419E700997D49 /* HealthView.swift */; };
 		1826C6662A7419E700997D49 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6642A7419E700997D49 /* HealthView.swift */; };
-		18F75AD32A78F7EF00182E6B /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F75AD22A78F7EF00182E6B /* SubscriptionService.swift */; };
-		18F75AD42A78F7EF00182E6B /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F75AD22A78F7EF00182E6B /* SubscriptionService.swift */; };
+		188AB77F2A7A3937000869FB /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */; };
+		29107C2DF45BEF51796166B4 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C59573A6E57C6E42ABB108 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework */; };
+		415BE16F43886BD2DD984831 /* Pods_kazWatchOsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A713B9F26C2F36C166E34E2C /* Pods_kazWatchOsTests.framework */; };
 		BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */; };
 		BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */; };
 		BAA9F2D02A710E7F005B13D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2CF2A710E7F005B13D5 /* Assets.xcassets */; };
-		BAA9F2D32A710E7F005B13D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2D22A710E7F005B13D5 /* Preview Assets.xcassets */; };
 		BAA9F2DD2A710E7F005B13D5 /* kazWatchOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2DC2A710E7F005B13D5 /* kazWatchOsTests.swift */; };
 		BAA9F2E72A710E7F005B13D5 /* kazWatchOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2E62A710E7F005B13D5 /* kazWatchOsUITests.swift */; };
 		BAA9F2E92A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2E82A710E7F005B13D5 /* kazWatchOsUITestsLaunchTests.swift */; };
@@ -30,12 +24,14 @@
 		BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */; };
 		BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2F52A710E7F005B13D5 /* ContentView.swift */; };
 		BAA9F2F82A710E80005B13D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2F72A710E80005B13D5 /* Assets.xcassets */; };
-		BAA9F2FB2A710E80005B13D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2FA2A710E80005B13D5 /* Preview Assets.xcassets */; };
 		BAA9F3052A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3042A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift */; };
 		BAA9F30F2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F30E2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift */; };
 		BAA9F3112A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3102A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift */; };
 		BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
 		BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
+		E6678FB9F3043B2AD2405C33 /* Pods_kazWatchOs_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CB5F13E487422C1E8BE02F /* Pods_kazWatchOs_Watch_App.framework */; };
+		F07A6A519A257ED63DA4F31E /* Pods_kazWatchOs_kazWatchOsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CFE86B2EA1709BC8657907 /* Pods_kazWatchOs_kazWatchOsUITests.framework */; };
+		F3D527A756C3DA2B59EB8ED8 /* Pods_kazWatchOs_Watch_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFD433650B322385888E2C8 /* Pods_kazWatchOs_Watch_AppTests.framework */; };
 		F4820A1270BBAAD5BCFD1352 /* Pods_kazWatchOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DB1B48868F480133C914DB /* Pods_kazWatchOs.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,19 +74,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		180A0DA02A79086F009100D6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				180A0D9D2A79086F009100D6 /* RxRelay.framework in Embed Frameworks */,
-				180A0D9B2A79086F009100D6 /* RxCocoa.framework in Embed Frameworks */,
-				180A0D9F2A79086F009100D6 /* RxSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAA9F3172A710E80005B13D5 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,15 +88,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0CB11A1D7EE7DD66BDCE8043 /* Pods-kazWatchOs Watch AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch AppTests.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch AppTests/Pods-kazWatchOs Watch AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		180A0D972A79086F009100D6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A0D982A79086F009100D6 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A0D992A79086F009100D6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1826C6612A74198600997D49 /* HealthDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataModel.swift; sourceTree = "<group>"; };
 		1826C6642A7419E700997D49 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
-		18F75AD22A78F7EF00182E6B /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
+		188AB7502A7A1975000869FB /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB7542A7A19AD000869FB /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB7552A7A19AD000869FB /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB75A2A7A1B72000869FB /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CB5F13E487422C1E8BE02F /* Pods_kazWatchOs_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CE237190FB22C58BCA63B1 /* Pods-kazWatchOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOsTests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOsTests/Pods-kazWatchOsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		329C8E5DCEAC1EB87994C325 /* Pods-kazWatchOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs/Pods-kazWatchOs.debug.xcconfig"; sourceTree = "<group>"; };
 		33DB1B48868F480133C914DB /* Pods_kazWatchOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38123D48BF0E61F99781D66E /* Pods-kazWatchOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs/Pods-kazWatchOs.release.xcconfig"; sourceTree = "<group>"; };
+		54711CB392B46029F37D1C40 /* Pods-kazWatchOs Watch AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch AppTests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch AppTests/Pods-kazWatchOs Watch AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		650D0618EF349871E05ECD76 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs-kazWatchOs Watch AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs-kazWatchOs Watch AppUITests/Pods-kazWatchOs-kazWatchOs Watch AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89C59573A6E57C6E42ABB108 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E04CFAD58313644958AA352 /* Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests/Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A686C9363EA60B02F0DA0D58 /* Pods-kazWatchOs Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch App.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		A713B9F26C2F36C166E34E2C /* Pods_kazWatchOsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA9F2C82A710E7D005B13D5 /* kazWatchOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazWatchOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsApp.swift; sourceTree = "<group>"; };
 		BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +133,14 @@
 		BAA9F3272A710FA6005B13D5 /* kazWatchOs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kazWatchOs.entitlements; sourceTree = "<group>"; };
 		BAA9F3282A710FD6005B13D5 /* kazWatchOs Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "kazWatchOs Watch App.entitlements"; sourceTree = "<group>"; };
 		BAA9F3292A71127C005B13D5 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		C90F70EB8CAE7DE4AE67D651 /* Pods-kazWatchOs-kazWatchOsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs-kazWatchOsUITests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs-kazWatchOsUITests/Pods-kazWatchOs-kazWatchOsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B565DA0C947AE2D334CCB8 /* Pods-kazWatchOsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOsTests.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOsTests/Pods-kazWatchOsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9F610197EFABCBB8F58D7D3 /* Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests/Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEFD433650B322385888E2C8 /* Pods_kazWatchOs_Watch_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs_Watch_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C352A037E55FA5DAEFA01 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs-kazWatchOs Watch AppUITests.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs-kazWatchOs Watch AppUITests/Pods-kazWatchOs-kazWatchOs Watch AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E817810BC0B5928EF71DC86B /* Pods-kazWatchOs-kazWatchOsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs-kazWatchOsUITests.release.xcconfig"; path = "Target Support Files/Pods-kazWatchOs-kazWatchOsUITests/Pods-kazWatchOs-kazWatchOsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE49AED45E9E05EA862CACB2 /* Pods-kazWatchOs Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs Watch App.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CFE86B2EA1709BC8657907 /* Pods_kazWatchOs_kazWatchOsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs_kazWatchOsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415BE16F43886BD2DD984831 /* Pods_kazWatchOsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07A6A519A257ED63DA4F31E /* Pods_kazWatchOs_kazWatchOsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,9 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180A0D9C2A79086F009100D6 /* RxRelay.framework in Frameworks */,
-				180A0D9A2A79086F009100D6 /* RxCocoa.framework in Frameworks */,
-				180A0D9E2A79086F009100D6 /* RxSwift.framework in Frameworks */,
+				E6678FB9F3043B2AD2405C33 /* Pods_kazWatchOs_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D527A756C3DA2B59EB8ED8 /* Pods_kazWatchOs_Watch_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29107C2DF45BEF51796166B4 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +200,18 @@
 			children = (
 				329C8E5DCEAC1EB87994C325 /* Pods-kazWatchOs.debug.xcconfig */,
 				38123D48BF0E61F99781D66E /* Pods-kazWatchOs.release.xcconfig */,
+				EE49AED45E9E05EA862CACB2 /* Pods-kazWatchOs Watch App.debug.xcconfig */,
+				A686C9363EA60B02F0DA0D58 /* Pods-kazWatchOs Watch App.release.xcconfig */,
+				8E04CFAD58313644958AA352 /* Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.debug.xcconfig */,
+				D9F610197EFABCBB8F58D7D3 /* Pods-kazWatchOs Watch App-kazWatchOs Watch AppUITests.release.xcconfig */,
+				C90F70EB8CAE7DE4AE67D651 /* Pods-kazWatchOs-kazWatchOsUITests.debug.xcconfig */,
+				E817810BC0B5928EF71DC86B /* Pods-kazWatchOs-kazWatchOsUITests.release.xcconfig */,
+				54711CB392B46029F37D1C40 /* Pods-kazWatchOs Watch AppTests.debug.xcconfig */,
+				0CB11A1D7EE7DD66BDCE8043 /* Pods-kazWatchOs Watch AppTests.release.xcconfig */,
+				650D0618EF349871E05ECD76 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.debug.xcconfig */,
+				E31C352A037E55FA5DAEFA01 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.release.xcconfig */,
+				22CE237190FB22C58BCA63B1 /* Pods-kazWatchOsTests.debug.xcconfig */,
+				D3B565DA0C947AE2D334CCB8 /* Pods-kazWatchOsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -201,7 +219,6 @@
 		BAA9F2BF2A710E7D005B13D5 = {
 			isa = PBXGroup;
 			children = (
-				18F75AD22A78F7EF00182E6B /* SubscriptionService.swift */,
 				1826C6612A74198600997D49 /* HealthDataModel.swift */,
 				1826C6642A7419E700997D49 /* HealthView.swift */,
 				BAA9F3292A71127C005B13D5 /* HealthManager.swift */,
@@ -270,6 +287,7 @@
 		BAA9F2F22A710E7F005B13D5 /* kazWatchOs Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */,
 				BAA9F3282A710FD6005B13D5 /* kazWatchOs Watch App.entitlements */,
 				BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */,
 				BAA9F2F52A710E7F005B13D5 /* ContentView.swift */,
@@ -307,10 +325,19 @@
 		C88753C0CB24557F2138B11A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				188AB75A2A7A1B72000869FB /* RxSwift.framework */,
+				188AB7542A7A19AD000869FB /* RxCocoa.framework */,
+				188AB7552A7A19AD000869FB /* RxRelay.framework */,
+				188AB7502A7A1975000869FB /* RxSwift.framework */,
 				180A0D972A79086F009100D6 /* RxCocoa.framework */,
 				180A0D982A79086F009100D6 /* RxRelay.framework */,
 				180A0D992A79086F009100D6 /* RxSwift.framework */,
 				33DB1B48868F480133C914DB /* Pods_kazWatchOs.framework */,
+				18CB5F13E487422C1E8BE02F /* Pods_kazWatchOs_Watch_App.framework */,
+				F5CFE86B2EA1709BC8657907 /* Pods_kazWatchOs_kazWatchOsUITests.framework */,
+				DEFD433650B322385888E2C8 /* Pods_kazWatchOs_Watch_AppTests.framework */,
+				89C59573A6E57C6E42ABB108 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework */,
+				A713B9F26C2F36C166E34E2C /* Pods_kazWatchOsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -327,7 +354,7 @@
 				BAA9F2C52A710E7D005B13D5 /* Frameworks */,
 				BAA9F2C62A710E7D005B13D5 /* Resources */,
 				BAA9F3172A710E80005B13D5 /* Embed Watch Content */,
-				9331217D39381F32DA6B64AA /* [CP] Embed Pods Frameworks */,
+				B4DDE0CC87AA7A556E7FCE6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,6 +370,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9F31B2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsTests" */;
 			buildPhases = (
+				75F255D57A705360BC2E17AB /* [CP] Check Pods Manifest.lock */,
 				BAA9F2D42A710E7F005B13D5 /* Sources */,
 				BAA9F2D52A710E7F005B13D5 /* Frameworks */,
 				BAA9F2D62A710E7F005B13D5 /* Resources */,
@@ -361,9 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9F31E2A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOsUITests" */;
 			buildPhases = (
+				85019557D75A1B8B351308B1 /* [CP] Check Pods Manifest.lock */,
 				BAA9F2DE2A710E7F005B13D5 /* Sources */,
 				BAA9F2DF2A710E7F005B13D5 /* Frameworks */,
 				BAA9F2E02A710E7F005B13D5 /* Resources */,
+				4A7059CC0CF3AFEE4C2D546D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -379,10 +409,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9F3142A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch App" */;
 			buildPhases = (
+				5CA3E9F599862C2BCD78D855 /* [CP] Check Pods Manifest.lock */,
 				BAA9F2EA2A710E7F005B13D5 /* Sources */,
 				BAA9F2EB2A710E7F005B13D5 /* Frameworks */,
 				BAA9F2EC2A710E7F005B13D5 /* Resources */,
-				180A0DA02A79086F009100D6 /* Embed Frameworks */,
+				E37A42222A3937AF0A795E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -397,6 +428,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9F3212A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppTests" */;
 			buildPhases = (
+				4612B51C9F470E5B2AE30BBF /* [CP] Check Pods Manifest.lock */,
 				BAA9F2FC2A710E80005B13D5 /* Sources */,
 				BAA9F2FD2A710E80005B13D5 /* Frameworks */,
 				BAA9F2FE2A710E80005B13D5 /* Resources */,
@@ -415,9 +447,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9F3242A710E80005B13D5 /* Build configuration list for PBXNativeTarget "kazWatchOs Watch AppUITests" */;
 			buildPhases = (
+				02C6035C81DFD3AF7564B445 /* [CP] Check Pods Manifest.lock */,
 				BAA9F3062A710E80005B13D5 /* Sources */,
 				BAA9F3072A710E80005B13D5 /* Frameworks */,
 				BAA9F3082A710E80005B13D5 /* Resources */,
+				57E1D8BC0FCBDE215E127C22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -491,7 +525,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA9F2D32A710E7F005B13D5 /* Preview Assets.xcassets in Resources */,
 				BAA9F2D02A710E7F005B13D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,7 +547,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA9F2FB2A710E80005B13D5 /* Preview Assets.xcassets in Resources */,
 				BAA9F2F82A710E80005B13D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +568,150 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02C6035C81DFD3AF7564B445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazWatchOs-kazWatchOs Watch AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4612B51C9F470E5B2AE30BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazWatchOs Watch AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A7059CC0CF3AFEE4C2D546D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOsUITests/Pods-kazWatchOs-kazWatchOsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOsUITests/Pods-kazWatchOs-kazWatchOsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOsUITests/Pods-kazWatchOs-kazWatchOsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57E1D8BC0FCBDE215E127C22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOs Watch AppUITests/Pods-kazWatchOs-kazWatchOs Watch AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOs Watch AppUITests/Pods-kazWatchOs-kazWatchOs Watch AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs-kazWatchOs Watch AppUITests/Pods-kazWatchOs-kazWatchOs Watch AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA3E9F599862C2BCD78D855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazWatchOs Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F255D57A705360BC2E17AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazWatchOsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85019557D75A1B8B351308B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kazWatchOs-kazWatchOsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A0BECA3E985FFCFEEF52056 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,7 +734,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9331217D39381F32DA6B64AA /* [CP] Embed Pods Frameworks */ = {
+		B4DDE0CC87AA7A556E7FCE6D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,6 +751,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs/Pods-kazWatchOs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E37A42222A3937AF0A795E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -584,7 +777,6 @@
 			files = (
 				BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */,
 				1826C6622A74198600997D49 /* HealthDataModel.swift in Sources */,
-				18F75AD32A78F7EF00182E6B /* SubscriptionService.swift in Sources */,
 				BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */,
 				1826C6652A7419E700997D49 /* HealthView.swift in Sources */,
 				BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */,
@@ -614,8 +806,8 @@
 			files = (
 				BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */,
 				1826C6632A74198600997D49 /* HealthDataModel.swift in Sources */,
-				18F75AD42A78F7EF00182E6B /* SubscriptionService.swift in Sources */,
 				BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */,
+				188AB77F2A7A3937000869FB /* SubscriptionViewModel.swift in Sources */,
 				1826C6662A7419E700997D49 /* HealthView.swift in Sources */,
 				BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */,
 			);
@@ -780,6 +972,7 @@
 		};
 		BAA9F3152A710E80005B13D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE49AED45E9E05EA862CACB2 /* Pods-kazWatchOs Watch App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -813,6 +1006,7 @@
 		};
 		BAA9F3162A710E80005B13D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A686C9363EA60B02F0DA0D58 /* Pods-kazWatchOs Watch App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -920,6 +1114,7 @@
 		};
 		BAA9F31C2A710E80005B13D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CE237190FB22C58BCA63B1 /* Pods-kazWatchOsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -941,6 +1136,7 @@
 		};
 		BAA9F31D2A710E80005B13D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B565DA0C947AE2D334CCB8 /* Pods-kazWatchOsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -963,6 +1159,7 @@
 		};
 		BAA9F31F2A710E80005B13D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90F70EB8CAE7DE4AE67D651 /* Pods-kazWatchOs-kazWatchOsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -983,6 +1180,7 @@
 		};
 		BAA9F3202A710E80005B13D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E817810BC0B5928EF71DC86B /* Pods-kazWatchOs-kazWatchOsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1004,6 +1202,7 @@
 		};
 		BAA9F3222A710E80005B13D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54711CB392B46029F37D1C40 /* Pods-kazWatchOs Watch AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1025,6 +1224,7 @@
 		};
 		BAA9F3232A710E80005B13D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB11A1D7EE7DD66BDCE8043 /* Pods-kazWatchOs Watch AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1047,6 +1247,7 @@
 		};
 		BAA9F3252A710E80005B13D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D0618EF349871E05ECD76 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1067,6 +1268,7 @@
 		};
 		BAA9F3262A710E80005B13D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31C352A037E55FA5DAEFA01 /* Pods-kazWatchOs-kazWatchOs Watch AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
