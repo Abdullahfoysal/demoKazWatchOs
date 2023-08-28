@@ -8,8 +8,8 @@
 import Foundation
 import HealthKit
 
-class HealthManager {
-    
+class HealthManager: ObservableObject {
+    @Published var bloodGlucose: String = String()
    
     
     let healthStore = HKHealthStore()
@@ -40,8 +40,9 @@ class HealthManager {
                 print("success\(success)")
                
 
-                self.readSleepData()
+//                self.saveBloodGlucoseData(glucoseValue: 10, startDate: self.dataFormatter(dateString: "2023-08-20 12:30:36 +0600"), endDate: self.dataFormatter(dateString:"2023-08-24 12:30:36 +0600"))
                 
+                self.readBloodGlucoseData()
                 
                
             }
@@ -61,6 +62,7 @@ class HealthManager {
             }
             for sample in samples {
                 print(sample)
+              
             }
         }
         
@@ -78,9 +80,42 @@ class HealthManager {
             guard let samples = results as? [HKQuantitySample] else {
                 return
             }
+            var bloodGlucoseList: [BloodGlucoseModel] = []
             for sample in samples {
-                print(sample)
+                
+                self.bloodGlucose = "\(sample.quantity)"
+                print(sample.startDate)
+                print(sample.endDate)
+                print(sample.quantity)
+                print(sample.quantityType)
+                print(samples.count)
+//
+                let bloodGlucose = BloodGlucoseModel(startDate: sample.startDate, endDate: sample.endDate, quantity: "\(sample.quantity)", quantityType: "\(sample.quantityType)")
+                
+                bloodGlucoseList.append(bloodGlucose)
+                
             }
+            print("***********")
+            print(bloodGlucoseList.first)
+            print(bloodGlucoseList.first)
+            print("***********")
+            
+            var myBloodGlucose = MyBloodGlucose()
+            myBloodGlucose.bloodGlucoseList = bloodGlucoseList
+            do {
+                
+                let jsonEncoder = JSONEncoder()
+                jsonEncoder.outputFormatting = .withoutEscapingSlashes
+                let jsonData = try jsonEncoder.encode(myBloodGlucose)
+                
+                var json = String(data: jsonData, encoding: String.Encoding.utf8)
+                //json = json?.replacingOccurrences(of: "\\", with: " ")
+                print(json!)
+            }catch {
+                print("error encoding")
+            }
+           
+
         }
         
         healthStore.execute(query)
@@ -96,6 +131,7 @@ class HealthManager {
                 return
             }
             for sample in samples {
+                
                 print(sample)
             }
         }
@@ -198,8 +234,8 @@ class HealthManager {
         healthStore.execute(query)
     }
     
-    fileprivate func dataFormatter() -> Date {
-        let dateString = "2023-07-28 12:30:36 +0600"
+    fileprivate func dataFormatter(dateString: String ) -> Date {
+       // let dateString = "2023-07-28 12:30:36 +0600"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
         
@@ -212,4 +248,18 @@ class HealthManager {
     }
     
     
+}
+
+
+struct MyBloodGlucose: Codable {
+    var bloodGlucoseList: [BloodGlucoseModel] = []
+}
+
+
+
+struct BloodGlucoseModel: Codable {
+    let startDate: Date?
+    let endDate: Date?
+    let quantity: String?
+    let quantityType: String?
 }

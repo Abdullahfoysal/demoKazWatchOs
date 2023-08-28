@@ -8,45 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
-    let healthstoreManager = HealthManager()
+   @StateObject var healthstoreManager = HealthManager()
     
-  @ObservedObject private var healthData = HealthDataModel()
-    var mySubVM = SubscriptionViewModel()
+  //@ObservedObject private var healthData = HealthDataModel()
+  //  var mySubVM = SubscriptionViewModel()
     
     var body: some View {
-        NavigationStack {
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world! \(healthData.heartBeat)")
-                TextField("", text: $healthData.heartBeat)
-                NavigationLink("Navigate to health Data view", destination: HealthView())
-             
-            }
+   
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Blood Glucose:  \(healthstoreManager.bloodGlucose)")
+    
+        }
             .padding()
             .onAppear {
-                mySubVM.startTimerOfSubscription()
-                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
-                    
-                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
-                        print(event)
-                        
-                    }
-                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
-                        print(event)
-                        
-                    }
-                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
-                        print(event)
-                        
-                    }
-                }
+//                mySubVM.startTimerOfSubscription()
+//                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
+//
+//                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
+//                        print(event)
+//
+//                    }
+//                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
+//                        print(event)
+//
+//                    }
+//                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
+//                        print(event)
+//
+//                    }
+//                }
                 healthstoreManager.requestAuthorizationPermission()
             }
             
-        }.environmentObject(healthData)
+      //  }.environmentObject(healthData)
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {
