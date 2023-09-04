@@ -28,6 +28,7 @@ class HealthManager {
             }else {
                 print("success\(success)")
                 self.readOxygenSaturationData()
+                
                // self.saveOxygenSaturationData(saturationValue: 100, date: Date)
             }
         }
@@ -75,13 +76,82 @@ class HealthManager {
             fatalError("*** This method should never fail ***")
         }
         
+        var bloodOxygenDataList: BloodOxygenList
+        
         let query = HKSampleQuery(sampleType: sampleType, predicate: nil, limit: Int(HKObjectQueryNoLimit), sortDescriptors: nil) { query, results , error in
             
             guard let samples = results as? [HKQuantitySample] else {
                 return
             }
+            
+            var bloodOxygenModel: BloodOxygenModel
+            
             for sample in samples {
-                print(sample)
+                
+                let uuid: String = "\(sample.uuid)"
+                let valueKey: String = "\(sample.quantity)"//split value & unit
+                var  value: String = "" //split value & unit
+                var unitString: String = ""//split value & unit
+                let splitStrings = valueKey.split(separator: " ")
+
+                if let tempValue = splitStrings.first, let tempUnit = splitStrings.last {
+                    value = "\(tempValue)"
+                    unitString = "\(tempUnit)"
+                    print("Value: \(value)")
+                    print("Unit: \(unitString)")
+                }
+               
+                
+                print(sample.device!)
+               // let deviceId: String = sample.device?. ?? "NA"
+                let deviceName: String = sample.device?.name ?? "NA"
+                let deviceManu = sample.device?.manufacturer ?? "NA"
+                let deviceModel = sample.device?.model ?? "NA"
+                let deviceHardware = sample.device?.hardwareVersion ?? "NA"
+                let deviceSoftware = sample.device?.softwareVersion ?? "NA"
+                
+                
+                
+                print(sample.metadata!)
+                let hKMetadataKeyBarometricPressure  = sample.metadata?["HKMetadataKeyBarometricPressure"]!
+                let newString = hKMetadataKeyBarometricPressure!
+                let newString2: String = "\(newString)"
+               print("%%%")
+                print(newString2)
+                var  metaValue: String = "" //split value & unit
+                var metaUnitString: String = ""//split value & unit
+                
+                    let splitStrings2 = newString2.split(separator: " ")
+
+                    
+                    if let tempValue2 = splitStrings2.first, let tempUnit2 = splitStrings2.last {
+                        metaValue = "\(tempValue2)"
+                        metaUnitString = "\(tempUnit2)"
+                        print("Value: \(value)")
+                        print("Unit: \(unitString)")
+                    }
+                
+               
+               
+                
+                print(sample.startDate)
+                print(sample.endDate)
+                print("********")
+                print(sample.quantityType)
+                print(sample.count)
+                print("#####")
+                bloodOxygenModel = BloodOxygenModel(patientId: "patientID",
+                                                    sampleUniqueId: uuid, value: value,unit: unitString,quantityType: "\(sample.quantityType)", startDateTime: "\(sample.startDate)", endDateTime:"\(sample.endDate)",barometricPressureUnit: metaUnitString, barometricPressureValue: metaValue, device: Device( name: deviceName,model: deviceModel,manufacturer: deviceManu, hardwareVersion: deviceHardware, softwareVersion: deviceSoftware))
+                
+                
+                print(bloodOxygenModel)
+                let encoder = JSONEncoder()
+                encoder.outputFormatting = .withoutEscapingSlashes
+                if let json = try? encoder.encode(bloodOxygenModel) {
+                    print(String(data: json, encoding: .utf8)!)
+                }
+                
+                
             }
         }
         
@@ -137,6 +207,9 @@ class HealthManager {
             }
         }
     }
+    
+    
+    
 
 
     

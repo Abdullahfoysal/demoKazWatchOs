@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2CD6EC2AA4768E004EF61C /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2CD6EB2AA4768E004EF61C /* ProfileScreen.swift */; };
+		BA2CD6F82AA5E8EA004EF61C /* BloodOxygenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2CD6F72AA5E8EA004EF61C /* BloodOxygenModel.swift */; };
 		BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */; };
 		BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */; };
 		BAA9F2D02A710E7F005B13D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA9F2CF2A710E7F005B13D5 /* Assets.xcassets */; };
@@ -22,7 +24,6 @@
 		BAA9F3052A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3042A710E80005B13D5 /* kazWatchOs_Watch_AppTests.swift */; };
 		BAA9F30F2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F30E2A710E80005B13D5 /* kazWatchOs_Watch_AppUITests.swift */; };
 		BAA9F3112A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3102A710E80005B13D5 /* kazWatchOs_Watch_AppUITestsLaunchTests.swift */; };
-		BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
 		BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F3292A71127C005B13D5 /* HealthManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA2CD6EB2AA4768E004EF61C /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		BA2CD6F72AA5E8EA004EF61C /* BloodOxygenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodOxygenModel.swift; sourceTree = "<group>"; };
 		BAA9F2C82A710E7D005B13D5 /* kazWatchOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazWatchOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazWatchOsApp.swift; sourceTree = "<group>"; };
 		BAA9F2CD2A710E7D005B13D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				BAA9F2F52A710E7F005B13D5 /* ContentView.swift */,
 				BAA9F2F72A710E80005B13D5 /* Assets.xcassets */,
 				BAA9F2F92A710E80005B13D5 /* Preview Content */,
+				BA2CD6EB2AA4768E004EF61C /* ProfileScreen.swift */,
+				BA2CD6F72AA5E8EA004EF61C /* BloodOxygenModel.swift */,
 			);
 			path = "kazWatchOs Watch App";
 			sourceTree = "<group>";
@@ -474,7 +479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA9F2CE2A710E7D005B13D5 /* ContentView.swift in Sources */,
-				BAA9F32A2A71127C005B13D5 /* HealthManager.swift in Sources */,
 				BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,8 @@
 				BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */,
 				BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */,
 				BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */,
+				BA2CD6F82AA5E8EA004EF61C /* BloodOxygenModel.swift in Sources */,
+				BA2CD6EC2AA4768E004EF61C /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
