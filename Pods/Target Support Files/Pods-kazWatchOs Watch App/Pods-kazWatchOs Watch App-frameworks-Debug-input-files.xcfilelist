@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-kazWatchOs Watch App/Pods-kazWatchOs Watch App-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa-watchOS/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay-watchOS/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-watchOS/RxSwift.framework

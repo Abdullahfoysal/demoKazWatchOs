@@ -1,0 +1,6 @@
+framework module Pods_kazWatchOs {
+  umbrella header "Pods-kazWatchOs-umbrella.h"
+
+  export *
+  module * { export * }
+}
