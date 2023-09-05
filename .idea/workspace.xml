@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22fd2526-dda8-4ab6-9064-1e124fe8ab33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kazWatchOs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/doctorIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/doctorIcon.imageset/doctorIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/doctorIcon.imageset/doctorIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/doctorIcon.imageset/doctorIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/message.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/message.imageset/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/message.imageset/message@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/message.imageset/message@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/profile2.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/Assets.xcassets/profile2.imageset/profile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/BloodOxygenModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs Watch App/ProfileScreen.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs/Assets.xcassets/doctorIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs/Assets.xcassets/doctorIcon.imageset/doctorIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs/Assets.xcassets/doctorIcon.imageset/doctorIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kazWatchOs/Assets.xcassets/doctorIcon.imageset/doctorIcon@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/HealthManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcodeproj/project.xcworkspace/xcuserdata/foysalmac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcodeproj/project.xcworkspace/xcuserdata/foysalmac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/foysalmac.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/foysalmac.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/noban.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/noban.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/noban.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcodeproj/xcuserdata/noban.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kazWatchOs.xcworkspace/xcuserdata/noban.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/kazWatchOs.xcworkspace/xcuserdata/noban.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectId" id="2UxvtJFjNJiSN52IRqQLXJu3TXc" />
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22fd2526-dda8-4ab6-9064-1e124fe8ab33" name="Changes" comment="" />
+      <created>1693894258397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693894258397</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

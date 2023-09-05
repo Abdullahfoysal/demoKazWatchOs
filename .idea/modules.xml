@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/demoKazWatchOs.iml" filepath="$PROJECT_DIR$/.idea/demoKazWatchOs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kazWatchOs.iml" filepath="$PROJECT_DIR$/.idea/kazWatchOs.iml" />
     </modules>
   </component>
 </project>
