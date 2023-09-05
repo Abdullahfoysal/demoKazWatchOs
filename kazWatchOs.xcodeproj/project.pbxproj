@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181E74342A9F798000A36A7F /* CrownScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E74332A9F798000A36A7F /* CrownScheduleScreen.swift */; };
 		1826C6622A74198600997D49 /* HealthDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6612A74198600997D49 /* HealthDataModel.swift */; };
 		1826C6632A74198600997D49 /* HealthDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6612A74198600997D49 /* HealthDataModel.swift */; };
 		1826C6652A7419E700997D49 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6642A7419E700997D49 /* HealthView.swift */; };
 		1826C6662A7419E700997D49 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826C6642A7419E700997D49 /* HealthView.swift */; };
 		188AB77F2A7A3937000869FB /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */; };
+		18EE8D9A2AA06C5B00A9DFA1 /* HealthDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE8D992AA06C5B00A9DFA1 /* HealthDetailsScreen.swift */; };
+		18EE8D9E2AA06EE300A9DFA1 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE8D9D2AA06EE300A9DFA1 /* BarChartView.swift */; };
+		18EE8DA32AA0C8A900A9DFA1 /* DashBoardScreeen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE8DA22AA0C8A900A9DFA1 /* DashBoardScreeen.swift */; };
 		29107C2DF45BEF51796166B4 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C59573A6E57C6E42ABB108 /* Pods_kazWatchOs_kazWatchOs_Watch_AppUITests.framework */; };
 		415BE16F43886BD2DD984831 /* Pods_kazWatchOsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A713B9F26C2F36C166E34E2C /* Pods_kazWatchOsTests.framework */; };
 		BAA9F2CC2A710E7D005B13D5 /* kazWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA9F2CB2A710E7D005B13D5 /* kazWatchOsApp.swift */; };
@@ -92,6 +96,7 @@
 		180A0D972A79086F009100D6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A0D982A79086F009100D6 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A0D992A79086F009100D6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E74332A9F798000A36A7F /* CrownScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownScheduleScreen.swift; sourceTree = "<group>"; };
 		1826C6612A74198600997D49 /* HealthDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataModel.swift; sourceTree = "<group>"; };
 		1826C6642A7419E700997D49 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
 		188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
@@ -100,6 +105,9 @@
 		188AB7552A7A19AD000869FB /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188AB75A2A7A1B72000869FB /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CB5F13E487422C1E8BE02F /* Pods_kazWatchOs_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE8D992AA06C5B00A9DFA1 /* HealthDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDetailsScreen.swift; sourceTree = "<group>"; };
+		18EE8D9D2AA06EE300A9DFA1 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		18EE8DA22AA0C8A900A9DFA1 /* DashBoardScreeen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardScreeen.swift; sourceTree = "<group>"; };
 		22CE237190FB22C58BCA63B1 /* Pods-kazWatchOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOsTests.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOsTests/Pods-kazWatchOsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		329C8E5DCEAC1EB87994C325 /* Pods-kazWatchOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kazWatchOs.debug.xcconfig"; path = "Target Support Files/Pods-kazWatchOs/Pods-kazWatchOs.debug.xcconfig"; sourceTree = "<group>"; };
 		33DB1B48868F480133C914DB /* Pods_kazWatchOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kazWatchOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +203,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18EE8D9B2AA06EC000A9DFA1 /* BloodSugarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				18EE8D992AA06C5B00A9DFA1 /* HealthDetailsScreen.swift */,
+				18EE8DA22AA0C8A900A9DFA1 /* DashBoardScreeen.swift */,
+			);
+			path = BloodSugarScreen;
+			sourceTree = "<group>";
+		};
+		18EE8D9C2AA06ECE00A9DFA1 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				18EE8D9D2AA06EE300A9DFA1 /* BarChartView.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
 		4A1C6A83121AC0CF198808AA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,12 +312,15 @@
 		BAA9F2F22A710E7F005B13D5 /* kazWatchOs Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				18EE8D9C2AA06ECE00A9DFA1 /* SharedViews */,
+				18EE8D9B2AA06EC000A9DFA1 /* BloodSugarScreen */,
 				188AB74D2A7A18EB000869FB /* SubscriptionViewModel.swift */,
 				BAA9F3282A710FD6005B13D5 /* kazWatchOs Watch App.entitlements */,
 				BAA9F2F32A710E7F005B13D5 /* kazWatchOsApp.swift */,
 				BAA9F2F52A710E7F005B13D5 /* ContentView.swift */,
 				BAA9F2F72A710E80005B13D5 /* Assets.xcassets */,
 				BAA9F2F92A710E80005B13D5 /* Preview Content */,
+				181E74332A9F798000A36A7F /* CrownScheduleScreen.swift */,
 			);
 			path = "kazWatchOs Watch App";
 			sourceTree = "<group>";
@@ -804,9 +832,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E74342A9F798000A36A7F /* CrownScheduleScreen.swift in Sources */,
 				BAA9F2F62A710E7F005B13D5 /* ContentView.swift in Sources */,
+				18EE8DA32AA0C8A900A9DFA1 /* DashBoardScreeen.swift in Sources */,
 				1826C6632A74198600997D49 /* HealthDataModel.swift in Sources */,
+				18EE8D9A2AA06C5B00A9DFA1 /* HealthDetailsScreen.swift in Sources */,
 				BAA9F32B2A71127C005B13D5 /* HealthManager.swift in Sources */,
+				18EE8D9E2AA06EE300A9DFA1 /* BarChartView.swift in Sources */,
 				188AB77F2A7A3937000869FB /* SubscriptionViewModel.swift in Sources */,
 				1826C6662A7419E700997D49 /* HealthView.swift in Sources */,
 				BAA9F2F42A710E7F005B13D5 /* kazWatchOsApp.swift in Sources */,

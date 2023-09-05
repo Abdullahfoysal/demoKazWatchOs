@@ -15,35 +15,37 @@ struct ContentView: View {
     
     var body: some View {
    
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Blood Glucose:  \(healthstoreManager.bloodGlucose)")
-    
-        }
-            .padding()
-            .onAppear {
-//                mySubVM.startTimerOfSubscription()
-//                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
+//            Text("Blood Glucose:  \(healthstoreManager.bloodGlucose)")
 //
-//                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
-//                        print(event)
-//
-//                    }
-//                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
-//                        print(event)
-//
-//                    }
-//                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
-//                        print(event)
-//
-//                    }
-//                }
-                healthstoreManager.requestAuthorizationPermission()
-            }
+//        }
+//            .padding()
+//            .onAppear {
+////                mySubVM.startTimerOfSubscription()
+////                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
+////
+////                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
+////                        print(event)
+////
+////                    }
+////                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
+////                        print(event)
+////
+////                    }
+////                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
+////                        print(event)
+////
+////                    }
+////                }
+//                healthstoreManager.requestAuthorizationPermission()
+//            }
             
       //  }.environmentObject(healthData)
+        
+        DashBoardScreeen()
     }
 
 }
