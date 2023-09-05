@@ -38,9 +38,7 @@ class HealthManager: ObservableObject {
                 print(error)
             }else {
                 print("success\(success)")
-               
-
-//                self.saveBloodGlucoseData(glucoseValue: 10, startDate: self.dataFormatter(dateString: "2023-08-20 12:30:36 +0600"), endDate: self.dataFormatter(dateString:"2023-08-24 12:30:36 +0600"))
+            
                 
                 self.readBloodGlucoseData()
                 

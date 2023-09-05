@@ -14,39 +14,18 @@ struct ContentView: View {
   //  var mySubVM = SubscriptionViewModel()
     
     var body: some View {
-   
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Blood Glucose:  \(healthstoreManager.bloodGlucose)")
-//
-//        }
-//            .padding()
-//            .onAppear {
-////                mySubVM.startTimerOfSubscription()
-////                Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
-////
-////                    mySubVM.publishSubjectSubscriptionItems.subscribe { event in
-////                        print(event)
-////
-////                    }
-////                    mySubVM.behaviourSubjectSubscriptionItems.subscribe { event in
-////                        print(event)
-////
-////                    }
-////                    mySubVM.replaySubjectSubscriptionItems.subscribe { event in
-////                        print(event)
-////
-////                    }
-////                }
-//                healthstoreManager.requestAuthorizationPermission()
-//            }
-            
-      //  }.environmentObject(healthData)
         
-        DashBoardScreeen()
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Blood Glucose:  \(healthstoreManager.bloodGlucose)")
+            
+        }.onAppear {
+            healthstoreManager.requestAuthorizationPermission()
+        }
     }
+           
 
 }
 
